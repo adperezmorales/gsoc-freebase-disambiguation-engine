@@ -30,8 +30,7 @@ In order to use the engine, do the following:
 3. In the *target/* directory, find the bundle called `gsoc-freebase-disambiguation-{version}-jar`
 4. Install it in Stanbol using the Felix Web Console
 
-**Note:** This bundle depends on blueprints-core` and `blueprints-neo4j-graph` bundles. The pom of these bundles are contained in `src/main/resources` folder. You can build the bundles with `mvn clean package` command and install them into Stanbol
-
+**Note:** This bundle depends on blueprints-core` and `blueprints-neo4j-graph`. You have to download the source code from [Blueprints repository][2] and use the pom files located in *src/main/resources* folder of this project to convert them into bundles and install them in Stanbol
 
 ## Configuration ##
 
@@ -50,4 +49,5 @@ This tool is related to the [issue 1157](https://issues.apache.org/jira/browse/S
 GSoC Freebase Disambiguation Engine is distributed under the terms of the [Apache License, 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 [1]: https://github.com/adperezmorales/gsoc-freebase-graph-importer/tree/master/gsoc-freebase-graph-importer
+[2]: https://github.com/tinkerpop/blueprints
 
