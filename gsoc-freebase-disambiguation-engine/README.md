@@ -49,5 +49,5 @@ This tool is related to the [issue 1157](https://issues.apache.org/jira/browse/S
 
 GSoC Freebase Disambiguation Engine is distributed under the terms of the [Apache License, 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-[1]: https://github.com/adperezmorales/gsoc-freebase-disambiguation-engine/tree/master/gsoc-freebase-disambiguation-engine
+[1]: https://github.com/adperezmorales/gsoc-freebase-graph-importer/tree/master/gsoc-freebase-graph-importer
 
