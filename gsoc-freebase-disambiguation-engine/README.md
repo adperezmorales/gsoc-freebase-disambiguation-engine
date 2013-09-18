@@ -15,7 +15,7 @@ The disambiguation algorithm should take into account a local disambiguation sco
 
 This engine implements the above algorithm but the first point (local score) which is not implemented in this version.
 
-The algorithm build a subgraph from the whole Freebase graph only for the entities returned after the NLP and Entity linking process, and the relations between them.
+The algorithm builds a subgraph from the whole Freebase graph only for the entities returned after the NLP and Entity linking process, and the relations between them.
 
 Using the Entity Annotations for each Text Annotation, it builds all the possible solutions for the text to enhance. It means, all the possible tuples result of combining the entities in each set of entity annotations (for each text annotation).
 
@@ -35,7 +35,7 @@ In order to use the engine, do the following:
 ## Configuration ##
 
 Once the bundle is deployed and active in Stanbol, go to configuration tab in Felix Web Console of Stanbol and configure the *FreebaseDisambiguatprEngine*:
-* Name of the engine: default value is **freebase-disambiguator**
+* Name of the engine: default value is **freebase-disambiguation**
 * Neo4j graph location: default value is empty. You must set the location of the graph and restart the component in the *Component* tab.
 
 The last step is configure a new engine in the enhancement chain using the name set in the configuration (freebase-disambiguator).
